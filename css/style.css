@@ -64,7 +64,16 @@
    .container {
      width: 1170px;
    }
- }
+ @media (min-width: (1920px) {
+   .container {
+      width: 1874px;
+   }
+   h1 {
+      font-size: 48px;
+   }
+   p {
+      font-size: 28px;
+   }
   /* HEADER */
  header {
    color:#FFFFFF;
