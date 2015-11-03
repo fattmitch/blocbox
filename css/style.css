@@ -398,6 +398,9 @@
    text-align: center;
    margin-right:8px;
  }
+ .active {
+    background: #2ECC71;
+ }
   /* LEFT NAVBAR SETTINGS */
  .left-nav .settings {
    position:absolute;
@@ -548,3 +551,4 @@
    line-height: 18px;
    margin:5px 0 0;
  }
+
