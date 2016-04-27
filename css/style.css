@@ -496,6 +496,16 @@
    padding:20px;
  }
  /* Larger Mobile Devices */
+
+ @media (min-width:320px) {
+
+  .one-half {
+    width:46%;
+  }
+     }
+  .box {
+    margin-top: 0px;
+ }
  @media (min-width:460px) {
    .content {
      padding:1.5em 1%;
@@ -531,6 +541,8 @@
      width:31.33333%;
      margin:0 1% 25px;
    }
+   .box {
+    margin-top: 20px;
  }
 /* Laptops and Desktops */
  @media (min-width:992px) {
